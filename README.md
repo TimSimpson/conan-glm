@@ -1,6 +1,12 @@
 # conan-glm
 Conan (https://conan.io) package for C++ library GLM (https://github.com/g-truc/glm)
 
+# Version Number Schema
+
+I'm trying to match the number of GLM, plus an extra number seperated by a dash
+which represents any changes to the package I've had to make (b/c in theory
+there may be multiple packages for each official release of GLM).
+
 # Credit
 
 Nearly all of this was stolen from Memsharded's spdlog Conan file, but please

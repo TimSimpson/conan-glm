@@ -8,7 +8,7 @@ username = os.getenv("CONAN_USERNAME", "memsharded")
 
 class glmTestConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
-    requires = "glm/0.9.8.0@%s/%s" % (username, channel)
+    requires = "glm/0.9.8-0@%s/%s" % (username, channel)
     generators = "cmake"
 
     def build(self):
