@@ -3,7 +3,7 @@ import os
 
 
 channel = os.getenv("CONAN_CHANNEL", "testing")
-username = os.getenv("CONAN_USERNAME", "memsharded")
+username = os.getenv("CONAN_USERNAME", "TimSimpson")
 
 
 class glmTestConan(ConanFile):
